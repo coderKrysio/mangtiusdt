@@ -20,7 +20,7 @@ export const Actions = () => {
                     </div>
                 </div>
                 <Link
-                    href={"http://localhost:3000/api/auth/login?"}
+                    href={`${process.env.KINDE_SITE_URL}api/auth/login?`}
                     className="border-2 border-[#fff] bg-white rounded-lg w-full h-[44px] py-2 text-center font-semibold transition-colors hover:bg-[#178fd6] hover:text-white hover:border-[#178fd6] hover:font-bold"
                 >
                     Register
@@ -39,7 +39,7 @@ export const Actions = () => {
                     </div>
                 </div>
                 <Link
-                    href={"http://localhost:3000/api/auth/login?"}
+                    href={`${process.env.KINDE_SITE_URL}api/auth/login?`}
                     className="border-2 border-[#fff] bg-white rounded-lg w-full h-[44px] py-2 text-center font-semibold transition-colors hover:bg-[#178fd6] hover:text-white hover:border-[#178fd6] hover:font-bold"
                 >
                     Buy / Sell
@@ -58,7 +58,7 @@ export const Actions = () => {
                     </div>
                 </div>
                 <Link
-                    href={"http://localhost:3000/api/auth/login?"}
+                    href={`${process.env.KINDE_SITE_URL}api/auth/login?`}
                     className="border-2 border-[#fff] bg-white rounded-lg w-full h-[44px] py-2 text-center font-semibold transition-colors hover:bg-[#178fd6] hover:text-white hover:border-[#178fd6] hover:font-bold"
                 >
                     Learn More
