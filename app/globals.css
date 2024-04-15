@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+    background-color: #ccdde8 !important;
+}
+
+.mantine-focus-auto {
+    background-color: white !important;
+}
