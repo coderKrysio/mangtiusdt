@@ -53,7 +53,7 @@ export const FeatureBar = () => {
             </Link>
 
             <Link
-                href={`${process.env.KINDE_SITE_LOGIN_URL}`}
+                href={"/api/auth/login?"}
                 className="flex flex-col items-center group hover:cursor-pointer"
             >
                 <Filled.FilledTasks
@@ -71,7 +71,7 @@ export const FeatureBar = () => {
             </Link>
 
             <Link
-                href={`${process.env.KINDE_SITE_LOGIN_URL}`}
+                href={"/api/auth/login?"}
                 className="flex flex-col items-center group hover:cursor-pointer"
             >
                 <Filled.FilledTransactions
@@ -88,7 +88,7 @@ export const FeatureBar = () => {
             </Link>
 
             <Link
-                href={`${process.env.KINDE_SITE_LOGIN_URL}`}
+                href={"/api/auth/login?"}
                 className="flex flex-col items-center group hover:cursor-pointer"
             >
                 <Filled.FilledUser
