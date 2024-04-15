@@ -10,6 +10,11 @@ export const Navbar = () => {
         <>
             <nav className="fixed top-0 w-[800px] h-[42px] bg-[#178fd6] text-white z-30 px-4 flex justify-between items-center">
                 <div className="flex gap-1 items-center">
+                    <img
+                        className="w-9 h-9 object-cover"
+                        src="/mangtiusdt-logo.png"
+                        alt="logo"
+                    />
                     <div className="font-bold text-2xl">Mangtiusdt</div>
                 </div>
 
