@@ -8,7 +8,7 @@ export const BonusBar = () => {
             {[1, 2, 3, 4].map((value, id) => (
                 <Link
                     key={id}
-                    href={`${process.env.KINDE_SITE_URL}api/auth/login?`}
+                    href={`${process.env.KINDE_SITE_LOGIN_URL}`}
                     className="w-full h-[120px] bg-[#ccdde8] rounded-xl p-2 z-0 flex gap-3"
                 >
                     <div className="w-[104px] h-[104px] relative font-semibold flex flex-col items-center justify-center">
