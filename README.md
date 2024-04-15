@@ -1,36 +1,42 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Mangtiusdt
 
-## Getting Started
+<br></br>
 
-First, run the development server:
+### Setting up the project locally
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+---
+
+To set up the project locally follow the given steps
+
+1. Fork this repo
+2. Go to the terminal create a new directory and clone the project in your local using the below command
+
+```
+git clone
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. Change the directory to the project directory
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+cd frontend-assignment
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+5. Install the dependencies
 
-## Learn More
+```
+pnpm install
+```
 
-To learn more about Next.js, take a look at the following resources:
+6. Set up environment variables. Create a Kinde Auth project, go to project settings and add your KINDE_CLIENT_ID, KINDE_CLIENT_SECRET and KINDE_ISSUER_URL in .env.example
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```
+cp .env.example .env.local
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+7. Run the project using the command
 
-## Deploy on Vercel
+```
+pnpm run dev
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Go to [localhost:3000](http://localhost:3000/) where the project will be running!
