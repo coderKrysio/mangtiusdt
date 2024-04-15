@@ -1,7 +1,5 @@
 # Mangtiusdt
 
-<br></br>
-
 ### Setting up the project locally
 
 ---
@@ -18,7 +16,7 @@ git clone
 4. Change the directory to the project directory
 
 ```
-cd frontend-assignment
+cd mangtiusdt
 ```
 
 5. Install the dependencies
